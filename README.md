@@ -26,12 +26,8 @@ A simple sign-up form for a website.
   1. Design the page so it conveys to the user clearly that the current page is a sign up page.
   2. Add a text input field that takes in the user's first name.
   3. Add a text input field to the right of the first name input field that takes in the user's last name.
-  4. Add a email input field under the first name input field that takes in the user's email address.
-    - Make sure to use the proper attributes to enable client-sided validation to make sure the user input a valid email address.
-  5. Add a phone number field to the right of the email input field that takes in the user's phone number.
-    - Make sure to use the proper attributes to enable client-sided validation to make sure the user input a valid phone number.
-  6. Add a password field under the email input field.
-    - Make sure to use the proper attributes to enable client-sided validation to make sure the user inputs a valid password per the site's password requirements.
-  7. Add a confirm password field to the right of the password field.
-    - Make sure the data input into this field matches exactly with the password field.
+  4. Add a email input field under the first name input field that takes in the user's email address. Make sure to use the proper attributes to enable client-sided validation to make sure the user input a valid email address.
+  5. Add a phone number field to the right of the email input field that takes in the user's phone number. Make sure to use the proper attributes to enable client-sided validation to make sure the user input a valid phone number.
+  6. Add a password field under the email input field. Make sure to use the proper attributes to enable client-sided validation to make sure the user inputs a valid password per the site's password requirements.
+  7. Add a confirm password field to the right of the password field. Make sure the data input into this field matches exactly with the password field.
   8. Under all of the forms, add a "Create Account" button that submits all the data in the input fields to the current url.
