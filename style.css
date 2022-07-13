@@ -1,3 +1,55 @@
+:root {
+    --splash-logo-section-width: 40vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    align-items: center;
+    background-color: #141719;
+    overflow: hidden;
+}
+
 .flex-container {
     display: flex;
+}
+
+.splash-logo-section {
+    position: relative;
+    width: var(--splash-logo-section-width);
+}
+
+.splash-logo-section img.bg {
+    width: var(--splash-logo-section-width);
+    overflow-y: hidden;
+}
+
+.splash-logo-container {
+    position: absolute;
+    top: 20%;
+    width: var(--splash-logo-section-width);
+    height: 20%;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.splash-logo-container img[src="./odin-lined.png"] {
+    height: 80%;
+}
+
+.splash-logo-container p {
+    margin: 0;
 }
