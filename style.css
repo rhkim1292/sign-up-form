@@ -1,5 +1,8 @@
 :root {
     --splash-logo-section-width: 40vw;
+    --splash-font-size: 10vw;
+    --right-section-horizontal-padding: 3rem;
+    --right-section-vertical-padding: calc(var(--right-section-horizontal-padding) / 2);
 }
 
 * {
@@ -16,8 +19,16 @@ body {
 
 body {
     align-items: center;
-    background-color: #141719;
+    background-color: #0A0D0F;
     overflow: hidden;
+    color: #ffffc6;
+}
+
+button {
+    background-color: #93e6f5;
+    color: #141719;
+    padding: .5rem 2rem;
+    border-radius: 5px;
 }
 
 .flex-container {
@@ -40,10 +51,9 @@ body {
     width: var(--splash-logo-section-width);
     height: 20%;
     background-color: rgba(0, 0, 0, .6);
-    color: white;
     align-items: center;
     justify-content: center;
-    font-size: 5rem;
+    font-size: var(--splash-font-size);
 }
 
 .splash-logo-container img[src="./odin-lined.png"] {
@@ -52,4 +62,27 @@ body {
 
 .splash-logo-container p {
     margin: 0;
+}
+
+.right-section.flex-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-section>p.flavor-text {
+    font-size: 1.5rem;
+    padding: var(--right-section-vertical-padding) var(--right-section-horizontal-padding);
+}
+
+.input-container {
+    background-color: #141719;
+    padding: var(--right-section-vertical-padding) var(--right-section-horizontal-padding);
+}
+
+.input-container>h2 {
+    margin-top: 0;
+}
+
+.button-container {
+    padding: var(--right-section-vertical-padding) var(--right-section-horizontal-padding);
 }
