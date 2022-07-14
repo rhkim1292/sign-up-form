@@ -20,13 +20,12 @@ body {
 body {
     align-items: center;
     background-color: #0f1214;
-    overflow: hidden;
 }
 
 button {
     background-color: #93e6f5;
     color: #141719;
-    padding: .5rem 2rem;
+    padding: .65rem 2rem;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -100,7 +99,8 @@ p.flavor-text {
 
 .form-row input[type="text"],
 .form-row input[type="email"],
-.form-row input[type="tel"] {
+.form-row input[type="tel"],
+.form-row input[type="password"] {
     border-radius: 5px;
     padding: 4px;
 }
