@@ -19,9 +19,8 @@ body {
 
 body {
     align-items: center;
-    background-color: #0A0D0F;
+    background-color: #0f1214;
     overflow: hidden;
-    color: #ffffc6;
 }
 
 button {
@@ -29,6 +28,7 @@ button {
     color: #141719;
     padding: .5rem 2rem;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .flex-container {
@@ -38,6 +38,7 @@ button {
 .splash-logo-section {
     position: relative;
     width: var(--splash-logo-section-width);
+    color: #ffffc6;
 }
 
 .splash-logo-section img.bg {
@@ -67,22 +68,39 @@ button {
 .right-section.flex-container {
     flex-direction: column;
     justify-content: center;
+    color: #fad5d5;
 }
 
-.right-section>p.flavor-text {
-    font-size: 1.5rem;
+p.flavor-text,
+.input-container,
+.button-container {
     padding: var(--right-section-vertical-padding) var(--right-section-horizontal-padding);
+}
+
+p.flavor-text {
+    font-size: 1.5rem;
 }
 
 .input-container {
     background-color: #141719;
-    padding: var(--right-section-vertical-padding) var(--right-section-horizontal-padding);
 }
 
 .input-container>h2 {
     margin-top: 0;
 }
 
-.button-container {
-    padding: var(--right-section-vertical-padding) var(--right-section-horizontal-padding);
+.form-row {
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="tel"] {
+    border-radius: 5px;
+    padding: 4px;
 }

@@ -15,7 +15,7 @@
 				<p>TEMP</p>
 			</div>
 		</div>
-		<form action="" method="post" class="right-section flex-container">
+		<form action="" method="get" class="right-section flex-container">
 			<p class="flavor-text">
 				This is not a real online service! You know you need something
 				like this in your life to help you realize your deepest
@@ -25,8 +25,50 @@
 			</p>
 			<div class="input-container">
 				<h2>Let's do this!</h2>
-				<label for="firstName">FIRST NAME</label>
-				<input type="text" id="firstName" name="first_name">
+				<div class="form-col flex-container">
+					<div class="form-row flex-container">
+						<label for="firstName">FIRST NAME</label>
+						<input
+							type="text"
+							id="firstName"
+							name="first_name"
+							placeholder="John"
+							required
+						/>
+					</div>
+					<div class="form-row flex-container">
+						<label for="lastName">LAST NAME</label>
+						<input
+							type="text"
+							id="lastName"
+							name="last_name"
+							placeholder="Doe"
+							required
+						/>
+					</div>
+				</div>
+				<div class="form-col flex-container">
+					<div class="form-row flex-container">
+						<label for="email">EMAIL</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="example@email.com"
+							required
+						/>
+					</div>
+					<div class="form-row flex-container">
+						<label for="phoneNum">PHONE NUMBER</label>
+						<input
+							type="tel"
+							id="phoneNum"
+							name="phone_num"
+							placeholder="123-456-7890"
+							pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+						/>
+					</div>
+				</div>
 			</div>
 			<div class="button-container">
 				<button type="submit">Create Account</button>
