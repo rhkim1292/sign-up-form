@@ -95,6 +95,21 @@ input:placeholder-shown + span::before {
     margin: 0;
 }
 
+.credit-container {
+    position: absolute;
+    justify-content: center;
+    width: var(--splash-logo-section-width);
+    bottom: 3px;
+}
+
+p.bg-img-credit a,
+p.bg-img-credit a:hover,
+p.bg-img-credit a:focus,
+p.bg-img-credit a:active {
+    text-decoration: underline;
+    color: inherit;
+}
+
 .right-section.flex-container {
     flex-direction: column;
     justify-content: center;
