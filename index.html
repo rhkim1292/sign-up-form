@@ -28,61 +28,83 @@
 				<div class="form-col flex-container">
 					<div class="form-row flex-container">
 						<label for="firstName">FIRST NAME</label>
-						<input
-							type="text"
-							id="firstName"
-							name="first_name"
-							placeholder="John"
-							required
-						/>
+						<div class="input-validity flex-container">
+							<input
+								type="text"
+								id="firstName"
+								name="first_name"
+								placeholder="John"
+								required
+							/>
+							<span class="validity-icon"></span>
+						</div>
 					</div>
 					<div class="form-row flex-container">
 						<label for="lastName">LAST NAME</label>
-						<input
-							type="text"
-							id="lastName"
-							name="last_name"
-							placeholder="Doe"
-							required
-						/>
+						<div class="input-validity flex-container">
+							<input
+								type="text"
+								id="lastName"
+								name="last_name"
+								placeholder="Doe"
+								required
+							/>
+							<span class="validity-icon"></span>
+						</div>
 					</div>
 				</div>
 				<div class="form-col flex-container">
 					<div class="form-row flex-container">
 						<label for="email">EMAIL</label>
-						<input
-							type="email"
-							id="email"
-							name="email"
-							placeholder="example@email.com"
-							required
-						/>
+						<div class="input-validity flex-container">
+							<input
+								type="email"
+								id="email"
+								name="email"
+								placeholder="example@email.com"
+								required
+							/>
+							<span class="validity-icon"></span>
+						</div>
 					</div>
 					<div class="form-row flex-container">
 						<label for="phoneNum">PHONE NUMBER</label>
-						<input
-							type="tel"
-							id="phoneNum"
-							name="phone_num"
-							placeholder="123-456-7890"
-							pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-						/>
+						<div class="input-validity flex-container">
+							<input
+								type="tel"
+								id="phoneNum"
+								name="phone_num"
+								placeholder="123-456-7890"
+								pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+							/>
+							<span class="validity-icon"></span>
+						</div>
 					</div>
 				</div>
 				<div class="form-col flex-container">
 					<div class="form-row flex-container">
 						<label for="passwd">PASSWORD</label>
-						<input
-							type="password"
-							id="passwd"
-							name="passwd"
-							placeholder="Enter a password"
-							required
-						/>
+						<div class="input-validity flex-container">
+							<input
+								type="password"
+								id="passwd"
+								name="passwd"
+								placeholder="Enter a password"
+								required
+							/>
+							<span class="validity-icon"></span>
+						</div>
 					</div>
 					<div class="form-row flex-container">
 						<label for="confirmpasswd">CONFIRM PASSWORD</label>
-						<input type="password" id="confirmpasswd" placeholder="Repeat password"/>
+						<div class="input-validity flex-container">
+							<input
+								type="password"
+								id="confirmpasswd"
+								placeholder="Repeat password"
+							/>
+							<span class="validity-icon"></span>
+						</div>
 					</div>
 				</div>
 			</div>
