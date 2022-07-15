@@ -1,6 +1,6 @@
 :root {
     --splash-logo-section-width: 40vw;
-    --splash-font-size: 10vw;
+    --splash-font-size: 8vw;
     --right-section-horizontal-padding: 3rem;
     --right-section-vertical-padding: calc(var(--right-section-horizontal-padding) / 2);
 }
@@ -105,6 +105,11 @@ p.flavor-text,
 .input-container,
 .button-container {
     padding: var(--right-section-vertical-padding) var(--right-section-horizontal-padding);
+}
+
+p.login-text {
+    padding-left: var(--right-section-horizontal-padding);
+    margin: 0;
 }
 
 p.flavor-text {
